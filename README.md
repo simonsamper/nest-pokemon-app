@@ -21,6 +21,10 @@ nmp i -g @nestjs/cli
 
 ```
 docker compose up -d
+
+5. Reconstruir la base de datos con la semilla
+```
+localhost:3000/api/v2/seed
 ```
 
 ## Stack utilizado
