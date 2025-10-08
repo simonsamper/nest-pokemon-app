@@ -1,0 +1,23 @@
+# salidas de build
+dist/
+node_modules/
+
+# VCS
+.git/
+.gitignore
+
+# entornos / secretos
+.env
+.env.*
+!.env.example  # si usas uno de ejemplo
+
+# otros archivos que no hacen falta en la imagen
+coverage/
+tmp/
+.tmp/
+.nyc_output/
+*.log
+Dockerfile*
+docker-compose*.yml
+README.md
+docs/
